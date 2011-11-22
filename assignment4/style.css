@@ -1,0 +1,51 @@
+body {
+	background:#ecedef url(images/bground.png) repeat-x;
+}
+
+
+#title {
+	position:relative;
+	background:#ecedef url(images/title.png) repeat-x;
+	height:88px;
+}
+
+#titletxt {
+	position:absolute;
+	background:#ecedef url(images/title.png) repeat-x;
+	line-height:88px;
+	vertical-align:middle;
+	font-family: Arial;
+	font-size: 42px;
+	font-weight:bold;
+	color: #5b86b0;
+	margin: 0px 5px 0px 8px;
+}
+
+#main {
+	margin: 5px 5px 5px 8px;
+	padding: 0px;
+}
+
+.city {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #cbcbcb;
+	
+}
+
+.cityField {
+	font-size: 12px;
+	font-weight:bold;
+	color: #548dd4;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #cbcbcb;
+	margin: 5px 0px 5px 0px;
+}
+
+a {text-decoration:none; color:#548dd4; border: 0px;}
+a:hover {text-decoration:underline; border: 0px;}
+a.u {text-decoration:underline; border: 0px;}
+a.u:hover {text-decoration:none; border: 0px;}
+.n a, a.n, a.n:hover {text-decoration:none; border: 0px;}
+a:focus, a:active {outline: none;}

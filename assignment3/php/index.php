@@ -37,7 +37,7 @@
 				echo "</td>";
 			}
 			else {
-					echo $key . ' ' . $value . "Hi <br>\n";
+					echo $key . ' ' . $value . "Not an array <br>\n";
 			}
 		
 		}
